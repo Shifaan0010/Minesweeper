@@ -43,7 +43,7 @@ button {
 .game-container {
   position: relative;
   width: 80%;
-  max-width: 95vh;
+  max-width: 85vh;
 }
 
 .overlay {
