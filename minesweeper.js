@@ -23,7 +23,7 @@ function Minesweeper(size, parent_element, grid_id, gameOver) {
     }
 
     const grid = board.grid.map((column, x) =>
-        column.map((hexagon, y) => new Node(hexagon, true, placeMine(0.1)))
+        column.map((hexagon, y) => new Node(hexagon, true, placeMine(0.15)))
     )
 
     let foundHexagons = 0
